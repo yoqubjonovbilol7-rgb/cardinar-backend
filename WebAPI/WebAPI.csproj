@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FastEndpoints" Version="8.2.0" />
+        <PackageReference Include="FastEndpoints.Swagger" Version="8.2.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.10" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.10" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.10">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Using Include="WebAPI.Core"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Features\Auth\Users\Admin\CreateUser\" />
+      <Folder Include="Features\Auth\Users\Admin\DeleteUser\" />
+      <Folder Include="Features\Auth\Users\Admin\UpdateUser\" />
+      <Folder Include="Features\Auth\Users\Public\GetMe\" />
+      <Folder Include="Features\Branches\Branch\Admin\" />
+      <Folder Include="Features\Branches\Branch\Public\" />
+      <Folder Include="Features\Branches\PhoneNumber\Admin\" />
+      <Folder Include="Features\Branches\PhoneNumber\Public\" />
+      <Folder Include="Features\Common\SocialLinks\Public\" />
+    </ItemGroup>
+
+</Project>

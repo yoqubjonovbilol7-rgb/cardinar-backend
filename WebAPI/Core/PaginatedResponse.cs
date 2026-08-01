@@ -1,3 +1,5 @@
+using WebAPI.Features.Products.ProductCategory.Admin.GetAllProductCategory;
+
 namespace WebAPI.Core;
 
 public class PaginatedResponse<T>
@@ -18,4 +20,5 @@ public class PaginatedResponse<T>
     HasPrevious = currentPage > 1,
     Data = data
   };
+  
 }

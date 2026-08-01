@@ -4,6 +4,7 @@
         <TargetFramework>net10.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <AllowMissingPrunePackageData>true</AllowMissingPrunePackageData>
     </PropertyGroup>
 
     <ItemGroup>
@@ -32,7 +33,40 @@
       <Folder Include="Features\Branches\Branch\Public\" />
       <Folder Include="Features\Branches\PhoneNumber\Admin\" />
       <Folder Include="Features\Branches\PhoneNumber\Public\" />
+      <Folder Include="Features\Cart\CartItem\Admin\" />
+      <Folder Include="Features\Cart\CartItem\Public\" />
+      <Folder Include="Features\Common\Bannner\Admin\" />
+      <Folder Include="Features\Common\Bannner\Public\" />
+      <Folder Include="Features\Common\CarMake\Public\" />
+      <Folder Include="Features\Common\CarModel\Public\" />
+      <Folder Include="Features\Common\Color\Admin\" />
+      <Folder Include="Features\Common\Color\Public\" />
       <Folder Include="Features\Common\SocialLinks\Public\" />
+      <Folder Include="Features\Common\StaticInfo\Admin\" />
+      <Folder Include="Features\Common\StaticInfo\Public\" />
+      <Folder Include="Features\Constructor\CustomModel\Admin\" />
+      <Folder Include="Features\Constructor\CustomModel\Public\" />
+      <Folder Include="Features\Constructor\CustomProduct\Admin\" />
+      <Folder Include="Features\Constructor\CustomProduct\Public\" />
+      <Folder Include="Features\Constructor\Materials\Admin\" />
+      <Folder Include="Features\Constructor\Materials\Public\" />
+      <Folder Include="Features\Constructor\Part\Admin\" />
+      <Folder Include="Features\Constructor\Part\Public\" />
+      <Folder Include="Features\Orders\OrderItem\Admin\" />
+      <Folder Include="Features\Orders\OrderItem\Public\" />
+      <Folder Include="Features\Orders\Order\Admin\" />
+      <Folder Include="Features\Orders\Order\Public\" />
+      <Folder Include="Features\Products\Articul\Admin\GetOneArticul\" />
+      <Folder Include="Features\Products\Articul\Public\" />
+      <Folder Include="Features\Products\ProductCategory\Public\" />
+      <Folder Include="Features\Products\ProductColor\Admin\" />
+      <Folder Include="Features\Products\ProductColor\Public\" />
+      <Folder Include="Features\Products\ProductImage\Admin\" />
+      <Folder Include="Features\Products\ProductImage\Public\" />
+      <Folder Include="Features\Products\Product\Admin\" />
+      <Folder Include="Features\Products\Product\Public\" />
+      <Folder Include="Features\Requests\Request\Admin\" />
+      <Folder Include="Features\Requests\Request\Public\" />
     </ItemGroup>
 
 </Project>

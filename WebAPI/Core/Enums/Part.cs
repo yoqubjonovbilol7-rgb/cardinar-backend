@@ -1,6 +1,9 @@
 namespace WebAPI.Core.Enums;
 
-public enum Part
+public enum PartType
 {
-  
+    Central,
+    Rare,
+    Side,
+    Stitch
 }

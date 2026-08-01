@@ -1,6 +1,9 @@
 namespace WebAPI.Core.Enums;
 
-public class PaymentMethod
+public enum PaymentMethod
 {
-  
+    Cash,
+    Payme,
+    Click,
+    Uzum
 }
